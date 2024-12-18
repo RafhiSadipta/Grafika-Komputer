@@ -1,0 +1,32 @@
+@import url("https://webglfundamentals.org/webgl/resources/webgl-tutorials.css");
+
+body {
+    margin: 0;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+/* Canvas untuk WebGL */
+#canvas {
+    display: block; /* Menghilangkan padding default browser */
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Overlay teks di atas canvas */
+#overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white; /* Warna teks */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.5); /* Latar semi transparan */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10; /* Pastikan overlay di atas canvas */
+}
